@@ -1,0 +1,190 @@
+h1{
+    font-family: 'Staatliches', cursive;
+    color: white;
+    font-size: 3.75rem;
+    line-height: 75px;
+}
+body{
+    background-color: #E8F8F5 ;
+}
+#search{
+    width: 220px;
+    height: 57px;
+    left: 37px;
+    top: 304px;
+    background-color: #ABBDEC;
+    border: none;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+}
+.landingPage{
+    display: flex;
+    background-image:  linear-gradient(0.55deg, #2B6310 -16.41%, rgba(255, 255, 255, 0) 101.94%), url("../pictures/daisy.jpg") ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    text-align: center;
+    display: block;
+}
+
+.flowerItems, .flowerLog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.flowerItems > div{
+    width: 400px;
+    height: 200px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;      
+}
+
+#flowerTitle{
+    width: 100%;
+    background: #2B6310;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 3.8rem;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+#Sunflower{
+    background-image:url('../pictures/sunflower.jpg'), linear-gradient(rgba(207, 173, 110, 0.5),rgba(207, 173, 110, 0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+#Daisy{
+    background-image:url('../pictures/daisy.jpg'), linear-gradient(rgba(35, 70, 8, 0.5),rgba(35, 70, 8, 0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+
+}
+#Lavender{
+    background-image:url('../pictures/lavendar.jpg'),linear-gradient(rgba(108, 76, 164, 0.5),rgba(108, 76, 164, 0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+
+}
+#Honeysuckle{
+    background-image:url('../pictures/honeysuckle.jpg'), linear-gradient(rgba(255, 93, 81, 0.54),rgba(255, 93, 81, 0.54));
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+#Lilac{
+    background-image:url('../pictures/lilac.jpg'),linear-gradient( rgba(209, 157, 195, 0.5), rgba(209, 157, 195, 0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+#Lily{
+    background-image:url('../pictures/lily.jpg'), linear-gradient( rgba(186, 21, 64, 0.5), rgba(186, 21, 64, 0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+#Daffodil{
+    background-image:url('../pictures/daffodil.jpg'), linear-gradient( rgba(251, 240, 139, 0.5), rgba(251, 240, 139, 0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+#Marigold{
+    background-image:url('../pictures/marigold.jpg'), linear-gradient( rgba(237, 125, 1, 0.5), rgba(237, 125, 1, 0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+#Peony{
+    background-image:url('../pictures/peony.jpg'),linear-gradient( rgba(223, 164, 182, 0.5), rgba(223, 164, 182, 0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+#Pansy{
+    background-image:url('../pictures/pansy.jpg'), linear-gradient( rgba(254, 251, 190, 0.5), rgba(254, 251, 190, 0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+.flowerItems > div >p{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: white;
+    font-size: 3.1rem;
+    text-decoration: underline;
+}
+.flowerItems > div:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.flowerLog {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    position: absolute;
+    top: 5%;
+    overflow: hidden;
+}
+.flowerLog > div{
+    text-align: center;
+}
+.flowerLog > div > p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.flowerLog > div > h1,h3{
+    font-family: 'Staatliches', cursive;
+    color: white;
+    text-decoration: underline;
+}
+.flowerLog > div > h1{
+    font-size: 3rem;     
+}
+.flowerLog > div > h3{
+    font-size: 25px;     
+}
+#outsideImage{
+    width:100vw; 
+    height: 100vh;
+}
+#menuButton,#homeButton{
+    color: white;
+    font-family: 'Staatliches', cursive;
+    text-decoration: underline;
+    font-size: 1.5rem;  
+}
+#menuButton{
+    position: absolute;
+    left: 2%;
+    top: 2%;  
+}
+#homeButton{
+    position: absolute;
+    left: 5%;
+    top: 3%;
+}
+
+
+/*media queries*/
+@media only screen and (min-width: 320px)and (max-width: 767px) {
+    .flowerItems > div{
+        flex: 100%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .flowerItems > div{
+        flex: calc(100%/3);
+    }
+}
+
+
+

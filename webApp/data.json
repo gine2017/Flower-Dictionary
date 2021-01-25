@@ -1,0 +1,82 @@
+[
+    {
+        "Flower Name": "Sunflower",
+        "Scientific Name":"Helianthus",
+        "Order":"Asterales",
+        "Family":"Asteraceae",
+        "Description":"Helianthus is a genus  comprising about 70 species of annual and perennial flowering plants in the daisy family Asteraceae. Except for three South American species, the species of Helianthus are native to North America and Central America ",
+        "color":"#CFAD6E"
+    },
+    {
+        "Flower Name": "Lavender",
+        "Scientific Name":"Lavandula",
+        "Order":"Lamiales",
+        "Family":"Lamiaceae",
+        "Description":"Helianthus is a genus  comprising about  70 species of annual and perennial flowering plants in the daisy family Asteraceae. Except for three South American species, the species of Helianthus are native to North America and Central America",
+        "color":"#6C4CA4"
+    },
+    {
+        "Flower Name": "Honeysuckle",
+        "Scientific Name":"Lonicera",
+        "Order":"Dipsacales",
+        "Family":"Caprifoliaceae",
+        "Description":"Honeysuckles are arching shrubs or twining vines in the family Caprifoliaceae, native to northern latitudes in North America and Eurasia. Approximately 180 species of honeysuckle have been identified in North America and Eurasia",
+        "color":"#FF5D51"
+    },
+    {
+        "Flower Name": "Daisy",
+        "Scientific Name":"Bellis perennis",
+        "Order":"Asterales",
+        "Family":"Asteraceae",
+        "Description":"Bellis perennis is a common European species of daisy, of the family Asteraceae, often considered the archetypal species of that name. Many related plants also share the name daisy, so to distinguish this species from other daisies it is sometimes qualified as common daisy, lawn daisy or English daisy.",
+        "color":"#234608"
+    },
+    {
+        "Flower Name": "Lilac",
+        "Scientific Name":"Syringa",
+        "Order":"Lamiales",
+        "Family":"Oleaceae",
+        "Description":"Syringa is a genus of 12 currently recognized species of flowering woody plants in the olive family, native to woodland and scrub from southeastern Europe to eastern Asia, and widely and commonly cultivated in temperate areas elsewhere",
+        "color":"#D19DC3"
+    },
+    {
+        "Flower Name": "Lily",
+        "Scientific Name":"Lilium",
+        "Order":"Liliales",
+        "Family":"Liliaceae",
+        "Description": "Lilium is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers. Lilies are a group of flowering plants which are important in culture and literature in much of the world",
+        "color":"#BA1540"
+    },
+    {
+        "Flower Name": "Daffodil",
+        "Scientific Name":"Narcissus",
+        "Order":"Asparagales",
+        "Family":"Amaryllidaceae",
+        "Description": "Narcissus is a genus of predominantly spring flowering perennial plants of the amaryllis family, Amaryllidaceae. Various common names including daffodil, narcissus and jonquil are used to describe all or some members of the genus",
+        "color":"#FBF08B"
+    },
+    {
+        "Flower Name": "Marigold",
+        "Scientific Name":"Tagetes",
+        "Order":"Asterales",
+        "Family":"Asteraceae",
+        "Description": "Tagetes is a genus of annual or perennial, mostly herbaceous plants in the sunflower family. It was described as a genus by Carl Linnaeus in 1753. The plants are native to the Americas, growing naturally from the southwestern United States into South America, but some species have become naturalized around the world",
+        "color":"#ED7D01"
+    },
+    {
+        "Flower Name": "Peony",
+        "Scientific Name":"Paeonia",
+        "Order":"Saxifragales",
+        "Family":" Paeoniaceae; Raf.",
+        "Description": "The peony or paeony is a flowering plant in the genus Paeonia, the only genus in the family Paeoniaceae. Peonies are native to Asia, Europe and Western North America. Scientists differ on the number of species that can be distinguished, ranging from 25 to 40, although the current consensus is 33 known species",
+        "color":"#DFA4B6"
+    },
+    {
+        "Flower Name": "Pansy",
+        "Scientific Name":"Viola tricolor var. hortensis",
+        "Order":"Malpighiales",
+        "Family":"Violaceae",
+        "Description": "The garden pansy is a type of large-flowered hybrid plant cultivated as a garden flower. It is derived by hybridization from several species in the section Melanium of the genus Viola, particularly Viola tricolor, a wildflower of Europe and western Asia known as heartsease",
+        "color":"#FCF44A"
+    }
+]
